@@ -1,0 +1,60 @@
+<!-- By using bootstrap it can give wedpage reposiveness.Bootstrap is predefined library.
+reponsivness-
+according to screen size it will adjust.
+we use external cdn links or we can download to local. -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Introduction to Bootstrap</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<!-- we are linking bootstrap using getbootstrap.com 
+		we use it through online ortherwise we can download it and extract bootstrap then we will get 3 folders in that open css and copy bootstrap.css and paste in your bootstrap folder.
+	    for linking it we use link tag bootstrap.css
+	-->
+</head>
+<body>
+	<div class="container bg-warning">
+		<h1>container in bootstrap</h1>
+	</div>
+	<div class="container-fluid bg-warning">
+		<h1>if we use container-fluid then it occpies full width and bg-warning is for background color.</h1>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col bg-primary">col 1</div>
+			<div class="col bg-danger">col 2</div>
+			<div class="col bg-success">col 3</div>
+		</div>
+		<div class="row mt-5">
+			<div class="col-md-3 bg-primary">col 1</div>
+			<div class="col-md-6 bg-danger">col 2</div>
+			<div class="col-md-3 bg-success">col 3</div>
+		</div>
+	</div>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col bg-primary">col 1</div>
+			<div class="col bg-danger">col 2</div>
+			<div class="col bg-success">col 3</div>
+		</div>
+	</div>
+</body>
+</html>
+<!-- upto now for divs we mentioned height and width but by using bootstrap no need to mention height and width we can directly use classes.breakpoints are present in bootstrap.Grids for layout.
+Extrasmall   <576px
+Small  >=576px class-sm
+Medium >=768px class-md
+Large >=992px class-lg
+Extra large >=1200px class-xl---laptop
+Extra extra large >=1400px class-xxl----tv 
+
+Containers--
+it acts like body tag for bootstrap code.we will write every code inside the container.
+for every container we have breakpoints.
+
+grid--
+for creating any grid system use declare container,row,col classes.
+in bootstrap one row equals to 12 cols.-->

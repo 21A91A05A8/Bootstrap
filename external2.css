@@ -1,0 +1,45 @@
+.a1
+{
+	background: white;
+	width: 1530px;
+	height: 80px;
+}
+.a2
+{
+	background: lightgreen;
+	width: 100px;
+	height: 40px;
+	margin-top: 13px;
+	margin-left: 500px;
+	text-align: center;
+	padding-top: 5px ;
+	color: white;
+	border-radius: 5px;
+	float: left;
+}
+.a3
+{
+	background: lightskyblue;
+	width: 100px;
+	height: 40px;
+	float: left;
+	margin-top: 13px;
+	margin-left: 10px;
+	text-align: center;
+	padding-top: 5px ;
+	color: white;
+	border-radius: 5px;
+}
+.a4
+{
+	background: red;
+	width: 100px;
+	height: 40px;
+	margin-top: 13px;
+	margin-left: 10px;
+	float: left;
+	text-align: center;
+	padding-top: 5px ;
+	color: white;
+	border-radius: 5px;
+}
